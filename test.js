@@ -1,6 +1,8 @@
-const rx = require('rxjs');
-const rxOperator  = require('rxjs/operators');
+
 import { abc, foo} from "./test2"
+import * as rx from "rxjs";
+import * as rxOperator from "rxjs/operators";
+
 const source = rx.from([1,1,2,3,3,4,5]);
 //filter out all values until interval is greater than 5
 

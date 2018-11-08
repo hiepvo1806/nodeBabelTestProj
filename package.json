@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "babel test.js --watch --out-file script-compiled.js",
+    "watch": "babel test.js --watch --out-file script-compiled.js --presets=es2015",
     "start": "node script-compiled.js"
   },
   "author": "",
